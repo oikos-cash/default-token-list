@@ -6,7 +6,7 @@ const { toChecksumAddress } = require("ethereum-checksum-address");
 module.exports = function buildList() {
   const parsed = version.split(".");
   return {
-    name: "Oikos Swap Tokens",
+    name: "Deprecated Oikos Swap Tokens",
     timestamp: new Date().toISOString(),
     version: {
       major: +parsed[0],
